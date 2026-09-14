@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
     <title>sote — local Markdown notes</title>
     <meta
       name="description"
@@ -17,73 +18,114 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Syne:wght@600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="atmosphere" aria-hidden="true"></div>
+    <header class="topnav">
+      <a class="logo" href="./" aria-label="sote home">sote</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#download">Download</a>
+        <a href="https://github.com/achuthhadnoor/sote" rel="noopener noreferrer">Source</a>
+      </nav>
+      <div class="nav-actions">
+        <a
+          class="btn btn-nav"
+          id="nav-download"
+          href="https://github.com/achuthhadnoor/sote-releases/releases/latest"
+        >
+          Download
+        </a>
+      </div>
+    </header>
 
-    <main class="shell">
-      <header class="hero">
-        <p class="brand">sote</p>
-        <h1 class="headline">Notes that stay on your disk.</h1>
-        <p class="lede">
-          A fast Markdown editor for macOS and Windows. Open a folder, write, and keep every file plain
-          <code>.md</code> — no cloud account.
-        </p>
-
-        <div class="cta-row" id="cta-row">
+    <main>
+      <section class="hero">
+        <h1>sote is your local editor for notes that stay on disk.</h1>
+        <div class="hero-ctas">
           <a
             class="btn btn-primary"
             id="primary-download"
             href="https://github.com/achuthhadnoor/sote-releases/releases/latest"
           >
             <span id="primary-label">Download</span>
-            <span class="btn-meta" id="primary-meta">Latest release</span>
+            <span class="chev" aria-hidden="true">↓</span>
           </a>
           <a
-            class="btn btn-ghost"
+            class="btn btn-secondary"
             href="https://github.com/achuthhadnoor/sote"
             rel="noopener noreferrer"
           >
-            Source
+            View source
+            <span class="chev" aria-hidden="true">→</span>
           </a>
         </div>
+        <p class="hero-meta" id="status">macOS &amp; Windows · auto-updates included</p>
+      </section>
 
-        <p class="status" id="status" hidden></p>
-      </header>
-
-      <aside class="stage" aria-hidden="true">
-        <div class="window">
-          <div class="window-bar">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="window-title">notes</span>
-          </div>
-          <div class="window-body">
-            <div class="sidebar">
-              <div class="side-row active"></div>
-              <div class="side-row"></div>
-              <div class="side-row short"></div>
-              <div class="side-row"></div>
+      <section class="product" aria-hidden="true">
+        <div class="product-glow"></div>
+        <div class="product-frame">
+          <div class="app">
+            <div class="app-titlebar">
+              <span class="traffic"></span>
+              <span class="traffic"></span>
+              <span class="traffic"></span>
+              <span class="app-title">sote</span>
             </div>
-            <div class="editor">
-              <div class="line title"></div>
-              <div class="line"></div>
-              <div class="line mid"></div>
-              <div class="line"></div>
-              <div class="line short"></div>
-              <div class="cursor"></div>
+            <div class="app-body">
+              <aside class="app-sidebar">
+                <div class="side-label">Library</div>
+                <div class="side-item active">Architecture.md</div>
+                <div class="side-item">Weekly notes.md</div>
+                <div class="side-item">Ship checklist.md</div>
+                <div class="side-item dim">ideas/</div>
+              </aside>
+              <div class="app-editor">
+                <div class="tabs">
+                  <span class="tab active">Architecture.md</span>
+                  <span class="tab">Weekly notes.md</span>
+                </div>
+                <div class="prose">
+                  <div class="h">Local-first Markdown</div>
+                  <div class="p"></div>
+                  <div class="p wide"></div>
+                  <div class="p mid"></div>
+                  <div class="bullet"></div>
+                  <div class="bullet short"></div>
+                  <div class="bullet"></div>
+                  <div class="caret"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </aside>
+      </section>
 
-      <section class="downloads" aria-labelledby="all-downloads">
-        <h2 id="all-downloads">All downloads</h2>
+      <section class="features" id="features">
+        <h2>Built for folders you already have.</h2>
+        <div class="feature-grid">
+          <article>
+            <h3>Disk is source of truth</h3>
+            <p>Plain <code>.md</code> files. No sync account, no proprietary vault format.</p>
+          </article>
+          <article>
+            <h3>Keyboard-fast</h3>
+            <p>Jump with the command palette, arrow through the file tree, stay in flow.</p>
+          </article>
+          <article>
+            <h3>Stays current</h3>
+            <p>Signed auto-updates from GitHub Releases — install once, keep shipping.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="download" id="download">
+        <h2>Download sote</h2>
+        <p class="download-lede">Pick your platform. The site detects yours and highlights it.</p>
         <ul class="download-list" id="download-list">
           <li>
             <a href="https://github.com/achuthhadnoor/sote-releases/releases/latest">
@@ -93,10 +135,18 @@
           </li>
         </ul>
         <p class="footnote">
-          Auto-updates are built in. macOS may ask you to Right-click → Open the first time until builds are notarized.
+          macOS may ask for Right-click → Open the first time until builds are notarized.
         </p>
       </section>
     </main>
+
+    <footer class="footer">
+      <span>sote</span>
+      <div class="footer-links">
+        <a href="https://github.com/achuthhadnoor/sote-releases/releases/latest">Releases</a>
+        <a href="https://github.com/achuthhadnoor/sote">GitHub</a>
+      </div>
+    </footer>
 
     <script src="./main.js" type="module"></script>
   </body>

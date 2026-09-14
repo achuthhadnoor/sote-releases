@@ -94,7 +94,6 @@ function formatBytes(bytes) {
 async function main() {
   const primary = document.getElementById("primary-download");
   const primaryLabel = document.getElementById("primary-label");
-  const primaryMeta = document.getElementById("primary-meta");
   const list = document.getElementById("download-list");
   const status = document.getElementById("status");
   const { os, arch } = detectPlatform();
@@ -116,13 +115,22 @@ async function main() {
 
     if (primaryAsset && primary instanceof HTMLAnchorElement) {
       primary.href = primaryAsset.browser_download_url;
+      const nav = document.getElementById("nav-download");
+      if (nav instanceof HTMLAnchorElement) nav.href = primaryAsset.browser_download_url;
+
       if (primaryLabel) {
         primaryLabel.textContent =
-          os === "mac" ? "Download for macOS" : os === "windows" ? "Download for Windows" : "Download";
+          os === "mac"
+            ? "Download for macOS"
+            : os === "windows"
+              ? "Download for Windows"
+              : "Download";
       }
-      if (primaryMeta) {
+      if (status) {
         const bits = [version && `v${version}`, formatBytes(primaryAsset.size)].filter(Boolean);
-        primaryMeta.textContent = bits.join(" · ") || "Latest release";
+        status.textContent = bits.length
+          ? `${bits.join(" · ")} · auto-updates included`
+          : "macOS & Windows · auto-updates included";
       }
     }
 
@@ -140,18 +148,11 @@ async function main() {
         list.appendChild(li);
       }
     }
-
-    if (status) {
-      status.hidden = true;
-      status.textContent = "";
-    }
   } catch (err) {
     console.warn("release lookup failed", err);
     if (primary instanceof HTMLAnchorElement) primary.href = RELEASES_LATEST_PAGE;
     if (primaryLabel) primaryLabel.textContent = "Download";
-    if (primaryMeta) primaryMeta.textContent = "Open latest release";
     if (status) {
-      status.hidden = false;
       status.textContent = "Couldn’t load assets automatically — use the latest release page.";
     }
   }
