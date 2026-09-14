@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>sote — local Markdown notes</title>
+    <meta
+      name="description"
+      content="sote is a fast local Markdown editor for macOS and Windows. Your notes live in a folder on disk."
+    />
+    <meta property="og:title" content="sote — local Markdown notes" />
+    <meta
+      property="og:description"
+      content="A calm desktop editor for plain Markdown files. Download for macOS and Windows."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Syne:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+
+    <main class="shell">
+      <header class="hero">
+        <p class="brand">sote</p>
+        <h1 class="headline">Notes that stay on your disk.</h1>
+        <p class="lede">
+          A fast Markdown editor for macOS and Windows. Open a folder, write, and keep every file plain
+          <code>.md</code> — no cloud account.
+        </p>
+
+        <div class="cta-row" id="cta-row">
+          <a
+            class="btn btn-primary"
+            id="primary-download"
+            href="https://github.com/achuthhadnoor/sote-releases/releases/latest"
+          >
+            <span id="primary-label">Download</span>
+            <span class="btn-meta" id="primary-meta">Latest release</span>
+          </a>
+          <a
+            class="btn btn-ghost"
+            href="https://github.com/achuthhadnoor/sote"
+            rel="noopener noreferrer"
+          >
+            Source
+          </a>
+        </div>
+
+        <p class="status" id="status" hidden></p>
+      </header>
+
+      <aside class="stage" aria-hidden="true">
+        <div class="window">
+          <div class="window-bar">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="window-title">notes</span>
+          </div>
+          <div class="window-body">
+            <div class="sidebar">
+              <div class="side-row active"></div>
+              <div class="side-row"></div>
+              <div class="side-row short"></div>
+              <div class="side-row"></div>
+            </div>
+            <div class="editor">
+              <div class="line title"></div>
+              <div class="line"></div>
+              <div class="line mid"></div>
+              <div class="line"></div>
+              <div class="line short"></div>
+              <div class="cursor"></div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="downloads" aria-labelledby="all-downloads">
+        <h2 id="all-downloads">All downloads</h2>
+        <ul class="download-list" id="download-list">
+          <li>
+            <a href="https://github.com/achuthhadnoor/sote-releases/releases/latest">
+              <span>Open latest release</span>
+              <span class="hint">GitHub</span>
+            </a>
+          </li>
+        </ul>
+        <p class="footnote">
+          Auto-updates are built in. macOS may ask you to Right-click → Open the first time until builds are notarized.
+        </p>
+      </section>
+    </main>
+
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>

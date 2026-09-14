@@ -1,12 +1,14 @@
 # sote-releases
 
-Public **installers and auto-update artifacts** for [sote](https://github.com/achuthhadnoor/sote).
+Public **installers**, **auto-update artifacts**, and the **download site** for [sote](https://github.com/achuthhadnoor/sote).
 
-This repository intentionally contains **no application source**. Builds are published here from the sote CI on version tags (`v*`).
+This repository intentionally contains **no application source**. Builds are published here from sote CI on version tags (`v*`).
 
-## Install
+## Download
 
-Download the latest build from [Releases](https://github.com/achuthhadnoor/sote-releases/releases/latest).
+**Website:** https://achuthhadnoor.github.io/sote-releases/
+
+Or grab installers from [Releases](https://github.com/achuthhadnoor/sote-releases/releases/latest).
 
 | Platform | Asset |
 |---|---|
