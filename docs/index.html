@@ -14,90 +14,132 @@
       property="og:description"
       content="A calm desktop editor for plain Markdown files. Download for macOS and Windows."
     />
-    <meta property="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="topnav">
-      <a class="logo" href="./" aria-label="sote home">sote</a>
-      <nav class="nav-links" aria-label="Primary">
+      <a class="logo" href="./" aria-label="sote home">
+        <span class="logo-mark" aria-hidden="true"></span>
+        sote
+      </a>
+      <nav class="nav-center" aria-label="Primary">
         <a href="#features">Features</a>
         <a href="#download">Download</a>
         <a href="https://github.com/achuthhadnoor/sote" rel="noopener noreferrer">Source</a>
+        <a href="https://github.com/achuthhadnoor/sote-releases/releases" rel="noopener noreferrer"
+          >Releases</a
+        >
       </nav>
-      <div class="nav-actions">
+      <div class="nav-right">
+        <a class="nav-text" href="https://github.com/achuthhadnoor/sote" rel="noopener noreferrer"
+          >GitHub</a
+        >
         <a
-          class="btn btn-nav"
+          class="btn btn-outline"
+          href="https://github.com/achuthhadnoor/sote-releases/releases/latest"
+          >All platforms</a
+        >
+        <a
+          class="btn btn-solid"
           id="nav-download"
           href="https://github.com/achuthhadnoor/sote-releases/releases/latest"
+          >Download</a
         >
-          Download
-        </a>
       </div>
     </header>
 
     <main>
       <section class="hero">
         <h1>sote is your local editor for notes that stay on disk.</h1>
-        <div class="hero-ctas">
+        <div class="hero-actions">
           <a
-            class="btn btn-primary"
+            class="btn btn-solid btn-lg"
             id="primary-download"
             href="https://github.com/achuthhadnoor/sote-releases/releases/latest"
           >
             <span id="primary-label">Download</span>
-            <span class="chev" aria-hidden="true">↓</span>
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path
+                d="M8 2.5v8m0 0L4.5 7.25M8 10.5l3.5-3.25M3 13.5h10"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </a>
           <a
-            class="btn btn-secondary"
+            class="btn btn-ghost btn-lg"
             href="https://github.com/achuthhadnoor/sote"
             rel="noopener noreferrer"
           >
             View source
-            <span class="chev" aria-hidden="true">→</span>
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path
+                d="M3.5 8h9m0 0L9 4.5M12.5 8 9 11.5"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </a>
         </div>
-        <p class="hero-meta" id="status">macOS &amp; Windows · auto-updates included</p>
+        <p class="hero-note" id="status">macOS &amp; Windows · auto-updates included</p>
       </section>
 
-      <section class="product" aria-hidden="true">
-        <div class="product-glow"></div>
-        <div class="product-frame">
-          <div class="app">
-            <div class="app-titlebar">
-              <span class="traffic"></span>
-              <span class="traffic"></span>
-              <span class="traffic"></span>
-              <span class="app-title">sote</span>
+      <section class="showcase" aria-hidden="true">
+        <div class="showcase-art">
+          <div class="app-window">
+            <div class="app-chrome">
+              <div class="dots">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="chrome-title">sote — Architecture.md</div>
             </div>
-            <div class="app-body">
-              <aside class="app-sidebar">
-                <div class="side-label">Library</div>
-                <div class="side-item active">Architecture.md</div>
-                <div class="side-item">Weekly notes.md</div>
-                <div class="side-item">Ship checklist.md</div>
-                <div class="side-item dim">ideas/</div>
+            <div class="app-panes">
+              <aside class="pane-side">
+                <div class="pane-kicker">Library</div>
+                <div class="file on">Architecture.md</div>
+                <div class="file">Weekly notes.md</div>
+                <div class="file">Ship checklist.md</div>
+                <div class="file muted">ideas/</div>
+                <div class="file muted">archive/</div>
               </aside>
-              <div class="app-editor">
-                <div class="tabs">
-                  <span class="tab active">Architecture.md</span>
-                  <span class="tab">Weekly notes.md</span>
+              <div class="pane-main">
+                <div class="editor-tabs">
+                  <span class="etab on">Architecture.md</span>
+                  <span class="etab">Weekly notes.md</span>
                 </div>
-                <div class="prose">
-                  <div class="h">Local-first Markdown</div>
-                  <div class="p"></div>
-                  <div class="p wide"></div>
-                  <div class="p mid"></div>
-                  <div class="bullet"></div>
-                  <div class="bullet short"></div>
-                  <div class="bullet"></div>
-                  <div class="caret"></div>
+                <div class="editor-body">
+                  <h3>Local-first Markdown</h3>
+                  <p>
+                    Open any folder of <code>.md</code> files. Edit in a calm WYSIWYG surface — disk
+                    stays the source of truth.
+                  </p>
+                  <ul>
+                    <li>Command palette jump</li>
+                    <li>Autosave + live reload</li>
+                    <li>Signed auto-updates</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="pane-preview">
+                <div class="preview-bar">
+                  <span class="preview-dot"></span>
+                  <span>preview</span>
+                </div>
+                <div class="preview-card">
+                  <div class="preview-title">Ship checklist</div>
+                  <div class="preview-row done">Bump version</div>
+                  <div class="preview-row done">Tag release</div>
+                  <div class="preview-row">Publish draft</div>
                 </div>
               </div>
             </div>
@@ -141,7 +183,7 @@
     </main>
 
     <footer class="footer">
-      <span>sote</span>
+      <div class="footer-brand">sote</div>
       <div class="footer-links">
         <a href="https://github.com/achuthhadnoor/sote-releases/releases/latest">Releases</a>
         <a href="https://github.com/achuthhadnoor/sote">GitHub</a>
