@@ -1,35 +1,35 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "notes": "See the assets below to install this release (Windows). Prefer the NSIS `.exe` installer. SmartScreen may show Unknown publisher until the app is code-signed.",
-  "pub_date": "2026-09-18T09:36:08.958Z",
+  "pub_date": "2026-09-18T10:20:44.553Z",
   "platforms": {
-    "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2tuM1VtdWdrLzlVNS9ham5yQ0ZlQmt6UENjQ3NLdGdScGpyZ2xhV2lhMzI2NExoeldyZ2ZRVjBGbGcxSGRGblFiczhlSmRPVktqdlNvaFpaZ0NSN3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzIzNTc3CWZpbGU6c290ZS5hcHAudGFyLmd6CkZCMTI2UGVTNHJ1U2FwTzFLRW1sK1d5d1dPbmZzb2E5WHNnbmpORkt6WjhjTWMyNTNyMkRHT2RaOUxGVDBTbnNiK3kzZS9kc0lrQmFKbm54TjQ0TUNnPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.3/sote_x64.app.tar.gz"
-    },
-    "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2tuM1VtdWdrLzlVNS9ham5yQ0ZlQmt6UENjQ3NLdGdScGpyZ2xhV2lhMzI2NExoeldyZ2ZRVjBGbGcxSGRGblFiczhlSmRPVktqdlNvaFpaZ0NSN3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzIzNTc3CWZpbGU6c290ZS5hcHAudGFyLmd6CkZCMTI2UGVTNHJ1U2FwTzFLRW1sK1d5d1dPbmZzb2E5WHNnbmpORkt6WjhjTWMyNTNyMkRHT2RaOUxGVDBTbnNiK3kzZS9kc0lrQmFKbm54TjQ0TUNnPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.3/sote_x64.app.tar.gz"
-    },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2l6bU8yaHVpRS9ZYk44WENza09ZRXBkcW9BQTUxTXhSVEtsMjhQMjZYVjU0MlBKMDM1dWZUWlpkcmx5UlNUSE0zNk4yUE4rQm01Yk8vVzZOb1FvUndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzIzNjIxCWZpbGU6c290ZS5hcHAudGFyLmd6Cnh1TmgwTk5oczVkYWVrcUtsR21LaW84M2JETjE1R3FHU2ZiRlhxY1pHR1h6T2VJZGdJZkFVNFdqTHFIdGNpWjdyNnBDdXZFa1IzMW1kV0JUbFc3QkNnPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.3/sote_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2xJQ3kzT096ZXRrd0luMGoxNWVzMkh6UUxadUxNak9UK2NGZktzZWVkSmZoNHJiU0lzVjFQeEo5YS9OaXNUb3dZTXZCM0tmVEJOWWQzWFlQOU5jRkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI2Mzg4CWZpbGU6c290ZS5hcHAudGFyLmd6CkwwUS9iSitvR1R4L0RYbFlmNm5wNE80a1N2WFRlYXdwTmlmMFdjaXFoNXpNeEhWUURFQy93T1E5bENLSll1T2JwWGtmQVlNZ2dvS2xmV0VzVURDRkFRPT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.4/sote_aarch64.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2l6bU8yaHVpRS9ZYk44WENza09ZRXBkcW9BQTUxTXhSVEtsMjhQMjZYVjU0MlBKMDM1dWZUWlpkcmx5UlNUSE0zNk4yUE4rQm01Yk8vVzZOb1FvUndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzIzNjIxCWZpbGU6c290ZS5hcHAudGFyLmd6Cnh1TmgwTk5oczVkYWVrcUtsR21LaW84M2JETjE1R3FHU2ZiRlhxY1pHR1h6T2VJZGdJZkFVNFdqTHFIdGNpWjdyNnBDdXZFa1IzMW1kV0JUbFc3QkNnPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.3/sote_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2xJQ3kzT096ZXRrd0luMGoxNWVzMkh6UUxadUxNak9UK2NGZktzZWVkSmZoNHJiU0lzVjFQeEo5YS9OaXNUb3dZTXZCM0tmVEJOWWQzWFlQOU5jRkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI2Mzg4CWZpbGU6c290ZS5hcHAudGFyLmd6CkwwUS9iSitvR1R4L0RYbFlmNm5wNE80a1N2WFRlYXdwTmlmMFdjaXFoNXpNeEhWUURFQy93T1E5bENLSll1T2JwWGtmQVlNZ2dvS2xmV0VzVURDRkFRPT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.4/sote_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2lmM3lkV3MxcXNkWURpcjgwL2thNjZxaGt0eXhkNksxNFNFMXF5REJaY2lRMWZNSFNrd2Y2L1hXdHBJdWdlM2ZSeWpSeXFXcklsYWZDTUxiN3NjM1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI2NDEzCWZpbGU6c290ZS5hcHAudGFyLmd6CnJJT284VW0rbmhqZjd6QWkyYmNad1FqblMvOWl5QmFXMGEyT0pQcEM4dXlHY1QyK1cyR2hFY1F4L1oxc0UzT2FXUFVYbTdpdTA0ckQxVnR1dGdyY0NRPT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.4/sote_x64.app.tar.gz"
+    },
+    "darwin-x86_64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2lmM3lkV3MxcXNkWURpcjgwL2thNjZxaGt0eXhkNksxNFNFMXF5REJaY2lRMWZNSFNrd2Y2L1hXdHBJdWdlM2ZSeWpSeXFXcklsYWZDTUxiN3NjM1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI2NDEzCWZpbGU6c290ZS5hcHAudGFyLmd6CnJJT284VW0rbmhqZjd6QWkyYmNad1FqblMvOWl5QmFXMGEyT0pQcEM4dXlHY1QyK1cyR2hFY1F4L1oxc0UzT2FXUFVYbTdpdTA0ckQxVnR1dGdyY0NRPT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.4/sote_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT3NKMHFMRjBRbTVSaVNaL051Z3lTL1hKZ2QybS83TlNuUW5ENUtlbVlRalpOc3MwcmRzTllXOEtzSndMelF2VWFMbXRiMERyQTBIZmtSbW5zQi9ZS1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI0MTY1CWZpbGU6c290ZV8wLjEuM194NjQtc2V0dXAuZXhlCnBLb0IwTkNaelBZb0I2NDhUbEZRblp3OUduYWVDQmtrT1A4Qk1vZFhlTWxUWHViZGh0a1RLVlFlRTdKK0xnUGZnRFlvNGpMZG9NSHF0am9jQWNuSkNRPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.3/sote_0.1.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2s0TnhWeUNaZHhPekZ4LzJENUQzUGNuREtZYnBwMFM3b1czOXpUY0FlaUNJV0p2SFNsZzYvSjhGSHUrd2pxb0tMM3J0K291N2hCQWpTKzM4Y25tTVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI2ODQwCWZpbGU6c290ZV8wLjEuNF94NjQtc2V0dXAuZXhlCmg5ZzEzQ3ZLYUFFa1NPMU1tTmNvTHdra0pGR25SOWpPUGNiZ2VERlY3bVVDVVFzT2o3akRVNTllUHdqNC9CZTVNS0paazFwVEpBemZhWnZrako5YUFBPT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.4/sote_0.1.4_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT3NKMHFMRjBRbTVSaVNaL051Z3lTL1hKZ2QybS83TlNuUW5ENUtlbVlRalpOc3MwcmRzTllXOEtzSndMelF2VWFMbXRiMERyQTBIZmtSbW5zQi9ZS1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI0MTY1CWZpbGU6c290ZV8wLjEuM194NjQtc2V0dXAuZXhlCnBLb0IwTkNaelBZb0I2NDhUbEZRblp3OUduYWVDQmtrT1A4Qk1vZFhlTWxUWHViZGh0a1RLVlFlRTdKK0xnUGZnRFlvNGpMZG9NSHF0am9jQWNuSkNRPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.3/sote_0.1.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2s0TnhWeUNaZHhPekZ4LzJENUQzUGNuREtZYnBwMFM3b1czOXpUY0FlaUNJV0p2SFNsZzYvSjhGSHUrd2pxb0tMM3J0K291N2hCQWpTKzM4Y25tTVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI2ODQwCWZpbGU6c290ZV8wLjEuNF94NjQtc2V0dXAuZXhlCmg5ZzEzQ3ZLYUFFa1NPMU1tTmNvTHdra0pGR25SOWpPUGNiZ2VERlY3bVVDVVFzT2o3akRVNTllUHdqNC9CZTVNS0paazFwVEpBemZhWnZrako5YUFBPT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.4/sote_0.1.4_x64-setup.exe"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2lKOEF0am5WL0YxaXJuaVd1TzVkUVk2ck1UUExkR0U0NTBpeFlTdkxlOHlmQzFvSjVmOFZ3bXBMNDd0NFo3emV4Q2pIUGxlNVkzUXo4Qk1FTVcrT3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI0MTY1CWZpbGU6c290ZV8wLjEuM194NjRfZW4tVVMubXNpCkl0YmdiUmo1czRXb0ZHdjFDZEI2RElwdzg3NzB6eGlrU2Z6cXVuZS81QzFpMU44YnE5dTBObmNua1hPYzQwQ2lZVGpMTytzSUJLekxpUnI1Z3ZsV0RBPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.3/sote_0.1.3_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT3JqVDF0aHM1TWdqbkoxMkZBQVVTTkdQK3hXYjBCNWFrOVVOazRPNzRHRWZIR1pzQkpzWUZGNGJBM2ttU2RuaXRkQzZJNGlWZStkdE9mNk5abjExMlFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI2ODQwCWZpbGU6c290ZV8wLjEuNF94NjRfZW4tVVMubXNpCmxsdEhtT0tsVkdlMVBlb05wQ3pXL1l6eWp0d00zZXdyUm0vOGJ5S2hidzBhc1Z3b2kyTGxyekxQTTdFQnZYb0JHUW9jeXJSeVRCYmdqNXRLWXZrTURnPT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.4/sote_0.1.4_x64_en-US.msi"
     }
   }
 }
