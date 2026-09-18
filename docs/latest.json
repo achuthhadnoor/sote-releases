@@ -1,35 +1,35 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "notes": "See the assets below to install this release (Windows). Prefer the NSIS `.exe` installer. SmartScreen may show Unknown publisher until the app is code-signed.",
-  "pub_date": "2026-09-18T11:25:00.614Z",
+  "pub_date": "2026-09-18T15:34:51.209Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2lOMStVTDNWUnR3QXdUcnhvZHNqdDZERlNOZ2ZaelFwVnN3OW94NWJEMENVWDFCVGNubFZqM1BJT0hEVExJamZzUk8wWmgyVEMxUnFwbVlackh5eUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI5OTc0CWZpbGU6c290ZS5hcHAudGFyLmd6ClNkcGxGUzFuS3RnejMzKzg3cWM2WHNmL1U2LzJiR2drbTEzN1VIenBTYURxUTRBZ2RwVnRSOU13QTFNQnRPYm8yN2FZNm9kdkJtd01IUDh1SXQ1bEFRPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.5/sote_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT3N3MW5ZZFRicFRsSjhRWkxPTksrSUtuREZHaVlQMUpONDhLMXo0YXJPcnVNLzI3NEZpUnBpVDZPWlVZMmpRaUJmeHhCTEJ5dnhSOG5VY2VPbUlhMkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQ0ODg2CWZpbGU6c290ZS5hcHAudGFyLmd6CnlDUVlxZ2lZUUY0WWxkaDk4THMwQnplQUhMUTRkZmtJQ3F5UWNjY0g2M1JidEtsaEhGVXZwSnBvVjZTeEtTZ3lEK05jOXc4bUN2QWJWZGNBcXRXN0N3PT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.6/sote_x64.app.tar.gz"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2lOMStVTDNWUnR3QXdUcnhvZHNqdDZERlNOZ2ZaelFwVnN3OW94NWJEMENVWDFCVGNubFZqM1BJT0hEVExJamZzUk8wWmgyVEMxUnFwbVlackh5eUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzI5OTc0CWZpbGU6c290ZS5hcHAudGFyLmd6ClNkcGxGUzFuS3RnejMzKzg3cWM2WHNmL1U2LzJiR2drbTEzN1VIenBTYURxUTRBZ2RwVnRSOU13QTFNQnRPYm8yN2FZNm9kdkJtd01IUDh1SXQ1bEFRPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.5/sote_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT3N3MW5ZZFRicFRsSjhRWkxPTksrSUtuREZHaVlQMUpONDhLMXo0YXJPcnVNLzI3NEZpUnBpVDZPWlVZMmpRaUJmeHhCTEJ5dnhSOG5VY2VPbUlhMkF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQ0ODg2CWZpbGU6c290ZS5hcHAudGFyLmd6CnlDUVlxZ2lZUUY0WWxkaDk4THMwQnplQUhMUTRkZmtJQ3F5UWNjY0g2M1JidEtsaEhGVXZwSnBvVjZTeEtTZ3lEK05jOXc4bUN2QWJWZGNBcXRXN0N3PT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.6/sote_x64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2hNMXFIZHR0dHVmcHU5ejRtdHR5c2ZzYXR1S3hjdnVLdld3U1AvQ1pmNGNISHVsM1c5SmxCM2xBYTNyM3NwZkxHQWUxcjBuRHg0MzBndmxldkpUY3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzMwMDY2CWZpbGU6c290ZS5hcHAudGFyLmd6CkllVFVHZkxaQlFlMnBhZGJCNWx3ZExUek9KbjVkNU9kT3REdTY1Qi9vdmxET2NDK2JGV2FUTGZPa29aVHZGWDlTZUFjdWY3Q3hwVU9mcFlHajJ3TUJ3PT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.5/sote_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT251ajhOT2Q2L0oxZDlHUFFuMzBENjVSek5xM3htWEk1NEFqSUNvUW4rdWhOYUx1K2FJQVQvRjF4VUpMQlV6SFNlU0J1MFFJNzNOQ2lsVEpLNTJ6RGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQ1MDU4CWZpbGU6c290ZS5hcHAudGFyLmd6CnY2cUVVR2wwU3V1aDZOM0xQNFlJNWhRdzZ4ZkRyMUVheFdLRzJyMWpnMktNRHMvTEtBMjR0T2hYSUlMNUFCN0p0ekdOWE9RRDVHWWtuUjYvMnBPUUNRPT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.6/sote_aarch64.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2hNMXFIZHR0dHVmcHU5ejRtdHR5c2ZzYXR1S3hjdnVLdld3U1AvQ1pmNGNISHVsM1c5SmxCM2xBYTNyM3NwZkxHQWUxcjBuRHg0MzBndmxldkpUY3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzMwMDY2CWZpbGU6c290ZS5hcHAudGFyLmd6CkllVFVHZkxaQlFlMnBhZGJCNWx3ZExUek9KbjVkNU9kT3REdTY1Qi9vdmxET2NDK2JGV2FUTGZPa29aVHZGWDlTZUFjdWY3Q3hwVU9mcFlHajJ3TUJ3PT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.5/sote_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT251ajhOT2Q2L0oxZDlHUFFuMzBENjVSek5xM3htWEk1NEFqSUNvUW4rdWhOYUx1K2FJQVQvRjF4VUpMQlV6SFNlU0J1MFFJNzNOQ2lsVEpLNTJ6RGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQ1MDU4CWZpbGU6c290ZS5hcHAudGFyLmd6CnY2cUVVR2wwU3V1aDZOM0xQNFlJNWhRdzZ4ZkRyMUVheFdLRzJyMWpnMktNRHMvTEtBMjR0T2hYSUlMNUFCN0p0ekdOWE9RRDVHWWtuUjYvMnBPUUNRPT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.6/sote_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT3FkNm4zYlVGb01GZjdJMDFyRzdRek9tMzN1UlplaFp3bnNMSHdRQUU3dWNkeUNuNHNsOUpHTFFkUWUwR0k3bkQ3TEZQUDJHQWErMFdDcVR6L0poL3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzMwNjk2CWZpbGU6c290ZV8wLjEuNV94NjQtc2V0dXAuZXhlCmxnZDR3NXJzam1kTHE0ekxoNzI5dXUrSlkxUVNtd25YdjlXVmZYWFVPbGp0OG5iV25IUDR3bkNPUzRDN29jYTlRdjlwQWNhYkJJUEF3MzdPWnpwUEJnPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.5/sote_0.1.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2xlRlRuRDRZZ3BlRTU4QkZIZFcvdDJkK3VhQnRCTGswRVFHL1ZZUHlqeHB3U0x3ZTN2TWJtdjZycFhUS2ZPYmFQTWR6M1lTbUxybHpPK1JLV3JYU3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQ1Njg3CWZpbGU6c290ZV8wLjEuNl94NjQtc2V0dXAuZXhlCktyeHA0aGdPV01CUzBFYXhrLzZFK0dyUTE0alE2S1ZKZmtrdUNWM2pPZjFHc2ZSLzQ0WGJxUklaVjVQZy80SmNFZyt5eEJST1NnL05zT1ZKdWtkNERBPT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.6/sote_0.1.6_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT3FkNm4zYlVGb01GZjdJMDFyRzdRek9tMzN1UlplaFp3bnNMSHdRQUU3dWNkeUNuNHNsOUpHTFFkUWUwR0k3bkQ3TEZQUDJHQWErMFdDcVR6L0poL3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzMwNjk2CWZpbGU6c290ZV8wLjEuNV94NjQtc2V0dXAuZXhlCmxnZDR3NXJzam1kTHE0ekxoNzI5dXUrSlkxUVNtd25YdjlXVmZYWFVPbGp0OG5iV25IUDR3bkNPUzRDN29jYTlRdjlwQWNhYkJJUEF3MzdPWnpwUEJnPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.5/sote_0.1.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT2xlRlRuRDRZZ3BlRTU4QkZIZFcvdDJkK3VhQnRCTGswRVFHL1ZZUHlqeHB3U0x3ZTN2TWJtdjZycFhUS2ZPYmFQTWR6M1lTbUxybHpPK1JLV3JYU3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQ1Njg3CWZpbGU6c290ZV8wLjEuNl94NjQtc2V0dXAuZXhlCktyeHA0aGdPV01CUzBFYXhrLzZFK0dyUTE0alE2S1ZKZmtrdUNWM2pPZjFHc2ZSLzQ0WGJxUklaVjVQZy80SmNFZyt5eEJST1NnL05zT1ZKdWtkNERBPT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.6/sote_0.1.6_x64-setup.exe"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT200Tjc0SXFpYWlHc1oxM000WjlwSng4bHRBQm1INzJEdDVqSUVhTWFjTXkrOXRuYkFYTDdqaGcyWDMvY0JyTzhVUkNySm5rQjdGY1lsQlZxTmRuakF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzMwNjk2CWZpbGU6c290ZV8wLjEuNV94NjRfZW4tVVMubXNpCnRacFpzcGxRaUlFK0dPNHdoV0hpeE5ud1RaZzJ0NkNWZzdVOWJkSWhpNnIwVjBiRFZhOUQ4c3p4dzAzdEp5THhyQ3greHRTUmdqeHIyVEZzVnhZQUFBPT0K",
-      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.5/sote_0.1.5_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSmNhZ3Vzd2pBT3VkZk5CVTBDSmdxdmIrc0VaakkycTlVeHgzS2NBT2NCM3BxSnJ0SjFRZFNmM3ZiSWtUK1poUUE3dU02WC96bXcyTklPeHprVzh3YVJ5SUpmWVdmSFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQ1Njg3CWZpbGU6c290ZV8wLjEuNl94NjRfZW4tVVMubXNpCkl3dHl1TnkyS2lrNzIreVV1ZzkwZFhsdkdrSlhRL2pXRng1bXA2dVI5OXNBRUFFUWxldHd4SWxqR2FKQzdJQ0g2TmovRDFjM1lvOUY4cHlQRlVLREJ3PT0K",
+      "url": "https://github.com/achuthhadnoor/sote-releases/releases/download/v0.1.6/sote_0.1.6_x64_en-US.msi"
     }
   }
 }
